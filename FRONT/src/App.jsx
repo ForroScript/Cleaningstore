@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes } from "react-router-dom"
+import Home from "./pages/home/home.jsx"
 
 function App() {
- 
 
   return (
     <>
-      <h1>Hello, World!</h1>
+      <BrowserRouter>
+          <a href="/"><Home/></a>
+      </BrowserRouter>
     </>
   )
 }
