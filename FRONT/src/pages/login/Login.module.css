@@ -1,7 +1,48 @@
-.titulo {
-    color: red;
+#containerPrincipal{
+    background: linear-gradient(to bottom, rgba(181, 182, 242, 1), rgba(204, 204, 204, 0.2)); /*gradiente comecando de cima para baixo*/
+    height: 80vh;
 }
 
-#titulo {
-    color: blue;
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1vh;
+    background-color: white;
+    width: 35vw;
+}
+
+.tituloLogin {
+    a {
+        color: inherit;
+        text-decoration: underline; /* sublinhar a palavra */
+    }
+    a:focus {
+        outline: none; /* Remove o contorno de foco */
+        color: inherit; /* Mantém a cor do texto ao focar */
+    }
+}
+
+.camposParaLogin {
+    border: 2px solid red;
+    div {
+        display: flex;
+        flex-direction: column;
+        label {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        input {
+            height: 5vh;
+            padding-left: 1vw;
+            background-color: rgba(204, 204, 204, 0.2);
+            border-radius: 6px;
+            border: none;
+        }
+        input:focus {
+            outline: none;
+          }
+    }
+    
+    
 }
