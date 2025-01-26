@@ -44,7 +44,7 @@ export default function Footer() {
                             <ul className={styles.optionFooter}>
                                 <li><a href="/">Av. Eusébio de Queiroz, 1234 - Centro, Eusébio - CE, 60000-000</a></li>
                                 <li><a href="/">Phone: (85) 1234-5678</a></li>
-                                <li>gilson</li>
+                                <li>Raphael</li>
                             </ul>
                         </div>
                     </div>
