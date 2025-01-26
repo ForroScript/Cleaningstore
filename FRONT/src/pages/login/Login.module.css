@@ -33,7 +33,7 @@
             font-weight: 600;
         }
         input {
-            height: 5vh;
+            height: 5vh; 
             padding-left: 1vw;
             background-color: rgba(204, 204, 204, 0.2);
             border-radius: 6px;
